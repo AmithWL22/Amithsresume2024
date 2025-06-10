@@ -69,26 +69,33 @@ a{
     background-color: rgb(199, 195, 168); 
 }
 
-.horizontal {
-    display: flex;
+.places {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
 }
 
-img {
-    width: 200px;
-    height: 150px;
+.place-card {
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
 }
 
-.image1 {
-    width: 350px;
-    height: 100px;
+.place-card img {
+  width: 220px;
+  height: 130px;
+  display: block;
+  margin-top: 1px;
 }
 
-.image2 {
-    width: 350px;
-    height: 100px;
-}
-
-.image3 {
-    width: 350px;
-    height: 100px;
+.caption {
+  color: white;
+  margin-top: 8px;
+  font-size: 16px;
 }
